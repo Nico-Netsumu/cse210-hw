@@ -21,7 +21,7 @@ namespace ScriptureHider
                 
                 if (scripture.AreAllWordsHidden())
                 {
-                    Console.WriteLine("\nAll words are hidden. Program will now end.");
+                    Console.WriteLine("\nAll the words are hidden. This program will shutdown.");
                     break;
                 }
 
