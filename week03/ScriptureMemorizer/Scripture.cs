@@ -76,7 +76,7 @@ public class Reference
 
             if (wordsToHide.Count > 0)
             {
-                int wordsToHideCount = Math.Min(2, wordsToHide.Count); // Must hide 2 words per input.
+                int wordsToHideCount = Math.Min(3, wordsToHide.Count); // Must hide 3 words per input.
                 for (int i = 0; i < wordsToHideCount; i++)
                 {
                     var word = wordsToHide[random.Next(wordsToHide.Count)];
