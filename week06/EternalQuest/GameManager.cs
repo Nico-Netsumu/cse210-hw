@@ -52,7 +52,7 @@ class GameManager
             case "3":
                 Console.Write("What's are the most desearible times you want to accomplish the goal? For Bonus points: ");
                 int targetCount = int.Parse(Console.ReadLine());
-                Console.Write("How many Bonus poits if reached that many times the goal?: ");
+                Console.Write("How many Bonus points if reached that many times the goal?: ");
                 int bonusPoints = int.Parse(Console.ReadLine());
                 goals.Add(new ChecklistGoal { Name = name, Description = description, Points = points, TargetCount = targetCount, BonusPoints = bonusPoints, CurrentCount = 0 });
                 break;
